@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My AI Skills Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      background: #f6f7f9;
+      color: #20242a;
+      line-height: 1.75;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+    .hero {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 24px;
+      padding: 42px;
+      box-shadow: 0 14px 40px rgba(15, 23, 42, 0.06);
+    }
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.1;
+      letter-spacing: -0.04em;
+    }
+    .sub {
+      color: #667085;
+      max-width: 760px;
+      font-size: 18px;
+      margin: 0;
+    }
+    .grid {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 22px;
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+    .card p {
+      margin: 0;
+      color: #667085;
+    }
+    .note {
+      margin-top: 24px;
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 22px;
+      color: #475467;
+    }
+    code {
+      background: #eef2f7;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 28px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>My AI Skills Portfolio</h1>
+    <p class="sub">
+      一个个人 AI 工作流项目：把我常用的简历英文翻译、每日财经简报、微信表情包处理、学术论文修改方法，整理成可复用的 Skill。
+    </p>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <h2>简历英文翻译 Skill</h2>
+      <p>Times New Roman、英文地道、求职导向、避免中式英语、保留项目成果量化。</p>
+    </article>
+    <article class="card">
+      <h2>每日财经简报 Skill</h2>
+      <p>按“重要新闻—趋势信号—可写选题—继续追问”整理 AI、媒体、财经公司动态。</p>
+    </article>
+    <article class="card">
+      <h2>微信表情包处理 Skill</h2>
+      <p>固定记住 240×240、透明背景、暗夜模式、500KB 以下、banner 和 icon 规格。</p>
+    </article>
+    <article class="card">
+      <h2>学术论文修改 Skill</h2>
+      <p>学术但不僵硬、引用不能乱配、逻辑清楚、少 AI 腔。</p>
+    </article>
+  </section>
+
+  <section class="note">
+    <p>
+      Skill 文件位于 <code>.github/skills/</code>。这个项目展示的是 AI 工作流设计能力，不是声称训练了模型或发布了官方插件。
+    </p>
+  </section>
+</main>
+</body>
+</html>
